@@ -1,18 +1,34 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Timer Example</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <input type="number" id="value">
-    <button id="btn">start</button>
-    <h1 class="sec">00</h1>
-    <h1 class="min">00</h1>
-    <h1 id="hour">00</h1>
-    <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
 
+<body>
+    <div id="divi">
+        <div >
+            <div id="di">
+                <h2>SET TIMER </h2>
+            <input class="inp" type="text" placeholder="Set Time">
+            <button class="sub" >SET</button>
+            <button class="sub" id="so">STOP</button>
+            <div id="timer">
+                <h1 class="time">00 </h1>
+                <h1>:</h1>
+                <h1 id="seconds">00</h1>
+            </div>
+            </div>
+        </div>
+    </div>
+    <audio id="myAudio">
+        <source src="music/alexander-nakarada-superepic(chosic.com).mp3" type="audio/ogg">
+        Your browser does not support the audio element.
+      </audio>
     <script src="app.js"></script>
 </body>
-</html> -->
+
+</html>
